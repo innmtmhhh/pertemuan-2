@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Tailwind CSS</title>
+   <!-- Tailwind CSS CDN -->
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 min-h-screen flex flex-col items-center">
+   <section id="title" class="mt-10">
+      <h1 class="text-4xl font-bold text-gray-600">Todo List Application</h1>
+   </section>
+   <section id="input" class="mt-6 flex space-x-4">
+      <input type="text" name="assignment" id="assignment" 
+             class="border-2 border-gray-300 rounded-lg px-4 py-2 w-64 focus:outline-none focus:border-blue-500"
+             placeholder="Inputkan tugas yang akan dikerjakan ...">
+      <input type="button" id="btn-tambah" value="TAMBAH"
+             class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500 cursor-pointer">
+   </section>
+   <section id="output" class="mt-6 w-3/4"></section>
+   <script src="main.js"></script>
+</body>
+</html>
